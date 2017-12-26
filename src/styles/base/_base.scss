@@ -1,0 +1,21 @@
+//rem -> px
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: $m-size;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    color: blue;
+}
